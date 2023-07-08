@@ -1,0 +1,21 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Sprite","order":1,"path":"folders/Sprite.yy",},
+    {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Sound","order":3,"path":"folders/Sound.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"s_potato","order":5,"path":"sprites/s_potato/s_potato.yy",},
+    {"name":"s_bullet","order":2,"path":"sprites/s_bullet/s_bullet.yy",},
+    {"name":"s_zombie","order":1,"path":"sprites/s_zombie/s_zombie.yy",},
+    {"name":"o_zombie","order":1,"path":"objects/o_zombie/o_zombie.yy",},
+    {"name":"s_sunflower","order":3,"path":"sprites/s_sunflower/s_sunflower.yy",},
+    {"name":"s_tile","order":4,"path":"sprites/s_tile/s_tile.yy",},
+    {"name":"o_bullets","order":2,"path":"objects/o_bullets/o_bullets.yy",},
+    {"name":"o_sunflower","order":4,"path":"objects/o_sunflower/o_sunflower.yy",},
+    {"name":"o_tile","order":6,"path":"objects/o_tile/o_tile.yy",},
+    {"name":"o_potato","order":3,"path":"objects/o_potato/o_potato.yy",},
+    {"name":"s_sun","order":6,"path":"sprites/s_sun/s_sun.yy",},
+    {"name":"o_sun","order":5,"path":"objects/o_sun/o_sun.yy",},
+  ],
+}

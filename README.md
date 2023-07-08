@@ -28,7 +28,6 @@ roles reversed
 ```
 
 
-
 -------------------------------------------------------------------------------------------------------
 
 
@@ -62,10 +61,8 @@ roles reversed
 ```md
 
 - you will play as zombies
-- you have to level up manually
-- you have to show the win level, ammount of zombies get killed and sun collected
-- you have to increase the no of suns collected // optional
 - upgrades
+- plants and items info
 
 ```
 
@@ -98,6 +95,19 @@ roles reversed
 > sound - 
 > fx - 
 > repository - github
+> prototype - gamemaker 2/GML
+
+```
+
+
+### References and Links :
+
+```md
+
+- (GMTK 2023 Jam Page) [https://itch.io/jam/gmtk-2023]
+- (plant vs zombie trailer) [https://www.youtube.com/watch?v=CHAbHz8iYHc]
+- (plant vs zombie official home page )[https://www.ea.com/ea-studios/popcap/plants-vs-zombies]
+- google images for references
 
 ```
 
