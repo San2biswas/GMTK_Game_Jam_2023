@@ -1,7 +1,7 @@
 # GMTK_Game_Jam_2023
  a 48 hours game jam...
 
-## Theme :
+### Theme :
 
 ```md
 
@@ -10,7 +10,7 @@ roles reversed
 ```
 
 
-## Project Start :
+### Project Start :
 
 ```md
 
@@ -19,7 +19,7 @@ roles reversed
 ```
 
 
-## Project Finale :
+### Project Finale :
 
 ```md
 
@@ -30,6 +30,7 @@ roles reversed
 
 
 -------------------------------------------------------------------------------------------------------
+
 
 ### Ideas
 
@@ -96,6 +97,7 @@ roles reversed
 > color theme - 
 > sound - 
 > fx - 
+> repository - github
 
 ```
 
