@@ -20,7 +20,7 @@ if game_time > (_limit * 3)
 
 // in-game keys
 if key_r game_restart();
-if key_p game_resume = !game_resume;
+if m_r game_resume = !game_resume;
 if game_resume == true
 {
 	global.game_play = 1;

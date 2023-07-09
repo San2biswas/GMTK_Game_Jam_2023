@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Zombie_Vs_Plants",
-    "path": "Zombie_Vs_Plants.yyp",
+    "name": "Operator",
+    "path": "folders/Operator.yy",
   },
 }

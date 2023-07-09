@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Zombie_Vs_Plants",
-    "path": "Zombie_Vs_Plants.yyp",
+    "name": "Operator",
+    "path": "folders/Operator.yy",
   },
   "parentObjectId": null,
   "persistent": false,

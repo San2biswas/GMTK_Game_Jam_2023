@@ -34,8 +34,8 @@ if zom_health < 1
 }
 
 
-// wave speed
-if place_meeting(x, y, o_goal)
+// game win
+if place_meeting(x, y, o_house)
 {
 	game_restart();
 }
