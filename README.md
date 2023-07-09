@@ -49,8 +49,8 @@ roles reversed
 
 > Zombie vs Plant (plant vs zombie reversed)
 
-- you will be the one whos putting zombies and ai will put peas. 
-- goal of this game is to get killed as many as zombies.
+- you will be the one whos putting zombies and ai will put plants. 
+- goal of this game is to reach the door and eat brain.
 - player will be working as ai 
 
 ```

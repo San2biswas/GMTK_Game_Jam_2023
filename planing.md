@@ -22,6 +22,7 @@ Planning :
 - zombie die after 3 hits
 - zombie moving
 - plants automatically grow (ai)
+- zombie mannual add
 - sunflower and produce sun
 - potato/block
 - tile based position
