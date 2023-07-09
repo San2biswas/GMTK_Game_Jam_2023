@@ -7,4 +7,6 @@ draw_text((tile_size * 01), (tile_size * 05), ("mb_x		: " + string(o_generator.m
 draw_text((tile_size * 01), (tile_size * 06), ("mb_y		: " + string(o_generator.mb_y)));
 draw_text((tile_size * 01), (tile_size * 07), ("plants		: " + string(o_generator.plant_no)));
 draw_text((tile_size * 01), (tile_size * 08), ("sun plant	: " + string(o_generator.sPlant_no)));
+draw_text((tile_size * 01), (tile_size * 09), ("sun			: " + string(global.sun_no)));
+draw_text((tile_size * 01), (tile_size * 10), ("zombie age	: " + string(global.zom_age)));
 

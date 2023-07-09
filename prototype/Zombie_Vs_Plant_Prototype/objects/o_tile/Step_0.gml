@@ -13,4 +13,3 @@ else
 	global.placeable = 1;
 }
 
-

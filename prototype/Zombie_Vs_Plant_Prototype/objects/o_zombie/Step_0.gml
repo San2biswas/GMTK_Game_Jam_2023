@@ -33,4 +33,3 @@ if zom_health < 1
 	instance_destroy(self);
 }
 
-
