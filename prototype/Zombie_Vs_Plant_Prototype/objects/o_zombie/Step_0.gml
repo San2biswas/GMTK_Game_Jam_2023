@@ -10,7 +10,7 @@ if place_meeting(x, y, o_bullets)
 
 
 // zombie blocked
-if place_meeting(x, y, o_potato)
+if place_meeting(x, y, o_potato) || place_meeting(x, y, o_plant) || place_meeting(x, y, o_sunflower)
 {
 	zom_unblock = 0;
 }
@@ -33,3 +33,9 @@ if zom_health < 1
 	instance_destroy(self);
 }
 
+
+// goal
+if place_meeting(x, y, o_goal)
+{
+	game_restart();
+}

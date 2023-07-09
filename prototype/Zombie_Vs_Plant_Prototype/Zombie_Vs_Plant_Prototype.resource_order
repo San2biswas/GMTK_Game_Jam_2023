@@ -6,7 +6,9 @@
   ],
   "ResourceOrderSettings": [
     {"name":"s_potato","order":5,"path":"sprites/s_potato/s_potato.yy",},
+    {"name":"s_goal","order":11,"path":"sprites/s_goal/s_goal.yy",},
     {"name":"s_bullet","order":2,"path":"sprites/s_bullet/s_bullet.yy",},
+    {"name":"o_goal","order":11,"path":"objects/o_goal/o_goal.yy",},
     {"name":"s_empty_zom","order":10,"path":"sprites/s_empty_zom/s_empty_zom.yy",},
     {"name":"o_generator","order":5,"path":"objects/o_generator/o_generator.yy",},
     {"name":"o_empty_zom","order":10,"path":"objects/o_empty_zom/o_empty_zom.yy",},

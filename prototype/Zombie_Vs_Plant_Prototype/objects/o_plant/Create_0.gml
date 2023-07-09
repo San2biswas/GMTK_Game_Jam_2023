@@ -1,2 +1,3 @@
 bulletTime = 0;
-limit = 60 - (global.game_speed * 5);
+limit = 120 - (global.game_speed * 5);
+plant_health = 100

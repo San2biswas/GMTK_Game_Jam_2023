@@ -19,3 +19,18 @@ if place_meeting(x, y, o_sunflower) || place_meeting(x, y, o_plant)
 	instance_destroy(self);
 	o_generator.sPlant_no --;
 }
+
+
+// on collision with zombie
+if place_meeting(x , y, o_zombie)
+{
+	sunflower_health = sunflower_health - (0.4 * global.game_speed * global.game_play);
+}
+
+
+// potato eaten
+if sunflower_health < 1
+{
+	instance_destroy(self);
+}
+

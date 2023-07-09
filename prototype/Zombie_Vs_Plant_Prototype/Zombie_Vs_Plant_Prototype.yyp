@@ -24,7 +24,9 @@
   "resources": [
     {"id":{"name":"s_potato","path":"sprites/s_potato/s_potato.yy",},},
     {"id":{"name":"s_plant","path":"sprites/s_plant/s_plant.yy",},},
+    {"id":{"name":"s_goal","path":"sprites/s_goal/s_goal.yy",},},
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},},
+    {"id":{"name":"o_goal","path":"objects/o_goal/o_goal.yy",},},
     {"id":{"name":"s_empty_zom","path":"sprites/s_empty_zom/s_empty_zom.yy",},},
     {"id":{"name":"o_generator","path":"objects/o_generator/o_generator.yy",},},
     {"id":{"name":"o_empty_zom","path":"objects/o_empty_zom/o_empty_zom.yy",},},
