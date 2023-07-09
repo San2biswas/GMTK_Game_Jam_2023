@@ -79,6 +79,7 @@ if m_l && global.placeable == 1 && global.zom_age == 0
 {
 	instance_create_layer(mb_x, mb_y, "zombies", o_zombie);
 	global.zom_age = 360;
+	audio_play_sound(snd_plant_place2, 100, false, irandom_range(0.8, 1.2)); // audio
 }
 
 global.zom_age = global.zom_age - (1 * global.game_speed * global.game_play);

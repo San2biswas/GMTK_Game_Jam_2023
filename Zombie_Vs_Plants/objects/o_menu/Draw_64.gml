@@ -22,6 +22,9 @@ else
 	draw_text((game_width/2) - tile_size * 8, (tile_size * 08), "Press right click to Start");
 }
 draw_text((game_width/2) - tile_size * 12, (tile_size * 10), "Click on right side road to add zombie");
+draw_text((game_width/2) - tile_size * 08, (tile_size * 12), "Surrender (middle mouse)");
+draw_text((game_width/2) - tile_size * 10, (tile_size * 16), "Reach the house on the left to win");
+draw_text((game_width/2) - tile_size * 12, (tile_size * 18), "Tips: look at the diffrence between shoots");
 
 
 draw_set_font(fnt_menu);

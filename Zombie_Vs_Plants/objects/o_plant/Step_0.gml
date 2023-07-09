@@ -12,6 +12,7 @@ if bulletTime > (limit) bulletTime = 0;
 if bulletTime > (limit-1) &&  global.game_play == 1
 {
 	instance_create_layer(x, y, "plants", o_bullets);
+	audio_play_sound(snd_shoot, 100, false); // audio
 }
 
 

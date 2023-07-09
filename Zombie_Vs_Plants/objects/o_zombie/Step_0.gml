@@ -6,6 +6,7 @@ x = x - (zom_speed * global.game_speed * global.game_play * zom_unblock);
 if place_meeting(x, y, o_bullets)
 {
 	self.zom_health = self.zom_health - 20;
+	audio_play_sound(snd_zom_hit, 100, false); // audio
 }
 
 

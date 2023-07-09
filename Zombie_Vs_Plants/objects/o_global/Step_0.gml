@@ -19,7 +19,8 @@ if game_time > (_limit * 3)
 
 
 // in-game keys
-if key_r game_restart();
+//if key_r game_restart();
+if m_m game_end();
 if m_r game_resume = !game_resume;
 if game_resume == true
 {
