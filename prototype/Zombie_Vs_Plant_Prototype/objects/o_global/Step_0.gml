@@ -3,10 +3,18 @@ scr_controls();
 
 
 // wave time
+var _limit = 3000;
 game_time = game_time + (1 * global.game_play);
-if game_time > (6000 * global.game_speed)
+if game_time > (_limit * global.game_speed)
 {
 	global.game_speed ++;
+}
+
+
+// game loose
+if game_time > (_limit * 3)
+{
+	game_restart();
 }
 
 
@@ -21,3 +29,4 @@ else
 {
 	global.game_play = 0;
 }
+

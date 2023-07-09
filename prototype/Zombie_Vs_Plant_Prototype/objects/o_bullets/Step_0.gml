@@ -1,5 +1,5 @@
 // bullet speed
-x = x + ((3 + global.game_speed) * global.game_play);
+x = x + ((3 + (2 * (global.game_speed ))) * global.game_play);
 
 
 // bullet destroy on hit
