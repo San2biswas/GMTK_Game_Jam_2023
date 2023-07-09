@@ -8,7 +8,7 @@ if place_meeting(x, y, o_plant)
 
 // bullet creation
 bulletTime ++;
-if bulletTime > limit bulletTime = 0;
+if bulletTime > (limit/global.game_speed) bulletTime = 0;
 if bulletTime > (limit-1) &&  global.game_play == 1
 {
 	//instance_create_layer(x, y, "plants", o_bullets);

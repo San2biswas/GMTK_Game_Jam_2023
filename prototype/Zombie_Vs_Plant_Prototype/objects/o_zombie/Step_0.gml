@@ -2,7 +2,7 @@
 x = x - (zom_speed * global.game_speed * global.game_play * zom_unblock);
 
 
-// bullet hit
+// bullet hit dammage
 if place_meeting(x, y, o_bullets)
 {
 	self.zom_health = self.zom_health - 20;
@@ -20,13 +20,17 @@ else
 }
 
 
-// zombie dead
-if zom_health < 1 instance_destroy(self);
-
-
 // zombie remove doubling on start
-if place_meeting(x, y, o_zom_place) || place_meeting(x, y, o_zombie)
+if place_meeting(x, y, o_zombie) && !place_meeting(x, y, o_zom_place)
 {
 	instance_destroy();
 }
+
+
+// zombie dead
+if zom_health < 1
+{
+	instance_destroy(self);
+}
+
 
